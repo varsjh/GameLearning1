@@ -17,6 +17,7 @@
 		C028671122BBC00B000BFD38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C028670F22BBC00B000BFD38 /* LaunchScreen.storyboard */; };
 		C028671C22BBC00B000BFD38 /* GameLearning1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C028671B22BBC00B000BFD38 /* GameLearning1Tests.swift */; };
 		C028672722BBC00B000BFD38 /* GameLearning1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C028672622BBC00B000BFD38 /* GameLearning1UITests.swift */; };
+		C08F54E022BCC826005F8516 /* myExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08F54DF22BCC826005F8516 /* myExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		C028672222BBC00B000BFD38 /* GameLearning1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameLearning1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C028672622BBC00B000BFD38 /* GameLearning1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLearning1UITests.swift; sourceTree = "<group>"; };
 		C028672822BBC00B000BFD38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C08F54DF22BCC826005F8516 /* myExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				C028670222BBC00A000BFD38 /* GameScene.sks */,
 				C028670422BBC00A000BFD38 /* Actions.sks */,
 				C028670622BBC00A000BFD38 /* GameScene.swift */,
+				C08F54DF22BCC826005F8516 /* myExtensions.swift */,
 				C028670822BBC00A000BFD38 /* GameViewController.swift */,
 				C028670A22BBC00A000BFD38 /* Main.storyboard */,
 				C028670D22BBC00B000BFD38 /* Assets.xcassets */,
@@ -270,6 +273,7 @@
 				C028670722BBC00A000BFD38 /* GameScene.swift in Sources */,
 				C028670922BBC00A000BFD38 /* GameViewController.swift in Sources */,
 				C028670122BBC00A000BFD38 /* AppDelegate.swift in Sources */,
+				C08F54E022BCC826005F8516 /* myExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
