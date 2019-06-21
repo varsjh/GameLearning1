@@ -55,3 +55,18 @@ extension SKLabelNode {
         self.run(SKAction.sequence([floatWhileSwagging, SKAction.removeFromParent()]))
     }
 }
+
+class myClock {
+    static var lastTime : Date = Date()
+
+    public func setLastTime ()
+    {
+        myClock.lastTime = Date()
+    }
+    
+    public func isTimeInterval( GreaterThan interval : Double ) -> Bool
+    {
+        return  Date().timeIntervalSince1970 - myClock.lastTime.timeIntervalSince1970 > interval * 1000.0
+    }
+    
+}
